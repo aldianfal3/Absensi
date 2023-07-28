@@ -33,7 +33,7 @@ class absen extends StatelessWidget {
             ElevatedButton.icon(
                 onPressed: () {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => Keluar()));
+                      MaterialPageRoute(builder: (context) => keluar()));
                 },
                 icon: Icon(Icons.logout),
                 label: Text(
